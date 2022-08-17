@@ -167,7 +167,7 @@ function boardResult(b, d){
 }
 
 /*---START BINGO---*/
-let drawCount = 0;
+drawCount = 0;
 while(winners.length === 0){
     
     let numberDrawn = newDraw();
